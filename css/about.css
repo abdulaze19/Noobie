@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    font-size: 30px;
+}
+
+header h1 {
+color: white;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h1::after{
+    content:  ' Al Adhami';
+    color: red;
+}
+
+nav {
+display: flex;
+background-color: black;
+justify-content: space-between;
+margin: 20px;
+}
+
+nav a:hover{
+    background-color: white;
+    font-size: 55px;
+}
+
+nav a{
+    font-size: 50px;
+    color: red;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+}
+
+img {
+    margin: 20px;
+    height: 300px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.me {
+    color: white;
+}
+
+p{
+    color: white;
+    margin-left: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 590px){
+    header{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    p{
+        font-size: 25px;
+        margin: 0px;
+       visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hi p{
+        font-size: 25px;
+        margin: 0px;
+       visibility:visible
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    nav a{
+        font-size: 25px;
+    }
+}

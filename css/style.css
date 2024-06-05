@@ -62,23 +62,36 @@ img{
     display: inline;
 }
 
+@media screen and (max-width:650px) {
+    nav a {
+        font-size: 30px;
+    }
+}  
+
+@media screen and (max-width:650px) {
+    header h1 {
+        font-size: 50px;
+    }
+}  
+
 @media screen and (max-width:430px) {
     nav  {
-        size: 10px;
+        size: 30px;
     }
 }  
 
  @media screen and (max-width:499px) {
     nav a {
-        font-size: 10px;
+        font-size: 20px;
     }
 }  
 
 @media screen and (max-width:499px) {
     .pics img {
-        height: 200px;
+        height: 150px;
     }
 }  
+
 
 @media screen and (max-width:499px) {
     header h1 {
