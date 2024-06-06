@@ -18,6 +18,7 @@ header {
 
 header h1 {
 color: white;
+
 }
 
 header a{
@@ -48,19 +49,6 @@ nav a{
     text-decoration: none;
 }
 
-img{
-    height: 600px;
-    border: 10px solid white;
-    outline: 5px solid red;
-    border-radius: 30px;
-    margin-top: 100px;
-    margin: 50px;
-}
-
-.pics img{
-    max-height: 360px;
-    display: inline;
-}
 
 @media screen and (max-width:650px) {
     nav a {
@@ -86,15 +74,24 @@ img{
     }
 }  
 
-@media screen and (max-width:499px) {
-    .pics img {
-        height: 150px;
-    }
-}  
-
 
 @media screen and (max-width:499px) {
     header h1 {
         font-size: 20px;
     }
 }  
+
+.Me h1{
+    color: azure;
+    font-size: 10vw;
+    margin-top: 200px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1600px){
+    .Me h1{
+        margin-left: 100px;
+    }
+} 
