@@ -1,121 +1,101 @@
-body{
-    background-color: #00aff0;
+*{
+    margin: 0;
+    padding: 0;
 }
-.fa {
-    padding: 20px;
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
     font-size: 30px;
-    width: 50px;
-    text-align: center;
+}
+
+header h1 {
+color: white;
+}
+
+header a{
     text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
+}
+
+header h1::after{
+    content:  ' Al Adhami';
+    color: red;
+}
+
+nav {
+display: flex;
+background-color: black;
+justify-content: space-between;
+margin: 20px;
+}
+
+nav a:hover{
+    background-color: white;
+    font-size: 55px;
+}
+
+nav a{
+    font-size: 50px;
+    color: red;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+}
+
+img {
+    margin: 20px;
+    height: 300px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.me {
     color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
+}
+
+p{
     color: white;
-  }
-  
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
-  
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-  
-  .fa-skype {
-    background: #00aff0;
-    color: white;
-  }
-  
-  .fa-android {
-    background: #a4c639;
-    color: white;
-  }
-  
-  .fa-dribbble {
-    background: #ea4c89;
-    color: white;
-  }
-  
-  .fa-vimeo {
-    background: #45bbff;
-    color: white;
-  }
-  
-  .fa-tumblr {
-    background: #2c4762;
-    color: white;
-  }
-  
-  .fa-vine {
-    background: #00b489;
-    color: white;
-  }
-  
-  .fa-foursquare {
-    background: #45bbff;
-    color: white;
-  }
-  
-  .fa-stumbleupon {
-    background: #eb4924;
-    color: white;
-  }
-  
-  .fa-flickr {
-    background: #f40083;
-    color: white;
-  }
-  
-  .fa-yahoo {
-    background: #430297;
-    color: white;
-  }
-  
-  .fa-soundcloud {
-    background: #ff5500;
-    color: white;
-  }
-  
-  .fa-reddit {
-    background: #ff5700;
-    color: white;
-  }
-  
-  .fa-rss {
-    background: #ff6600;
-    color: white;
-  }
+    margin-left: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 590px){
+    header{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    p{
+        font-size: 25px;
+        margin: 0px;
+       visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hi p{
+        font-size: 25px;
+        margin: 0px;
+       visibility:visible
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    nav a{
+        font-size: 25px;
+    }
+}
