@@ -100,9 +100,9 @@ p{
     }
 }
 
- svg{
-    background-color: red;
-    height: 50px;
-    width: 60px;
-    border-radius: 5px;
- }
+ @media screen and (max-width: 500px){
+    nav a:hover{
+        font-size: 20px;
+        background-color: white;
+    }
+}

@@ -95,3 +95,10 @@ nav a{
         margin-left: 100px;
     }
 } 
+
+@media screen and (max-width: 500px){
+    nav a:hover{
+        font-size: 20px;
+        background-color: white;
+    }
+}
